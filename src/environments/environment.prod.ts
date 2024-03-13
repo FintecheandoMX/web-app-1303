@@ -22,9 +22,9 @@ export const environment = {
     serverUrl: ''
   },
   warningDialog: {
-    title: 'Warning',
-    content: 'This system is for authorized use only. Unauthorized access will result in possible legal action. By accessing this system, you acknowledge that you are authorized to do so and that all data stored and processed here is confidential.',
-    buttonText: 'Close'
+    title: 'Advertencia',
+    content: 'Este sistema es sólo para uso autorizado. El acceso no autorizado dará lugar a posibles acciones legales. Al acceder a este sistema, usted reconoce que está autorizado a hacerlo y que todos los datos almacenados y procesados ​​aquí son confidenciales..',
+    buttonText: 'Cerrar'
   },
   defaultLanguage: window['env']['defaultLanguage'] || 'en-US',
   supportedLanguages: window['env']['supportedLanguages'] || 'cs-CS,de-DE,en-US,es-MX,fr-FR,it-IT,ko-KO,lt-LT,lv-LV,ne-NE,pt-PT,sw-SW',
