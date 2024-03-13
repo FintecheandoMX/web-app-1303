@@ -13,11 +13,13 @@
   <div fxFlex="70%" fxLayout="column" fxLayoutAlign="center center" fxHide.lt-md class="cover">
     <div class="cover-content">
       <h1 class="mat-display-1 cover-title">{{ 'APP_NAME' | translate}}</h1>
+      <!--
       <p class="mat-headline cover-description">
         {{ 'APP_NAME' | translate}} {{'labels.text.is designed by the' | translate}} <a href="http://www.openmf.org" target="_blank" class="cover-link">{{'labels.text.Mifos Initiative' | translate}}</a>. {{'labels.text.A' | translate}} <a href="http://mifos.org/resources/community/" target="_blank" class="cover-link">{{'labels.text.global community' | translate}}</a> 
         {{'labels.text.elimination of poverty' | translate}}
         <a href="http://mifos.org/take-action/volunteer/" target="_blank" class="cover-link">{{'labels.text.Get involved' | translate}}!</a>
       </p>
+      -->
     </div>
   </div>
 
@@ -63,12 +65,13 @@
       <mifosx-two-factor-authentication *ngIf="twoFactorAuthenticationRequired"></mifosx-two-factor-authentication>
     </div>
 
-    <!-- Contact Information/Resources (hidden on smaller screens) -->
+    <!-- Contact Information/Resources (hidden on smaller screens) 
     <mat-list fxHide.lt-lg fxLayout="row" fxFlexAlign="center" fxFlex="3 0 auto" class="information-list">
       <mat-list-item><button mat-button [matMenuTriggerFor]="resourcesMenu">{{'labels.links.Resources' | translate}}</button></mat-list-item>
       <mat-list-item><button mat-button [matMenuTriggerFor]="communityMenu">{{'labels.links.Community' | translate}}</button></mat-list-item>
       <mat-list-item><button mat-button [matMenuTriggerFor]="contributeMenu">{{'labels.links.Contribute' | translate}}</button></mat-list-item>
     </mat-list>
+    -->
 
     <!-- Footer -->
     <mifosx-footer></mifosx-footer>
@@ -80,7 +83,7 @@
 
 </div>
 
-<!-- Contact Information/Resources Menus -->
+<!-- Contact Information/Resources Menus 
 <mat-menu #resourcesMenu="matMenu">
   <a href="https://mifosforge.jira.com/wiki/spaces/docs/pages/52035622/User+Manual" target="_blank" mat-menu-item>{{'labels.links.User Manual' | translate}}</a>
   <a href="https://cwiki.apache.org/confluence/display/FINERACT/Apache+Fineract+1.0+Functional+Specifications" target="_blank" mat-menu-item>{{'labels.links.Functional Specifications' | translate}}</a>
@@ -98,3 +101,4 @@
   <a href="https://sourceforge.net/projects/mifos/" target="_blank" mat-menu-item>{{'labels.links.Working with Code' | translate}}</a>
   <a href="http://mifos.org/donate/" target="_blank" mat-menu-item>{{'labels.links.Donate' | translate}}</a>
 </mat-menu>
+-->
